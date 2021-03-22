@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fake News</title>
+
+<style type="text/css">
+
+</style>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/230587ba9e.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+</head>
+
+<body>
+  <body id="page1">
+<div id="wrapper">
+        <header>
+        <img src="images/logo4.png" alt="Fake News Logo" width="100" height="100">
+        <h1>Fake News</h1>
+        </header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="videos.html">Videos</a></li>
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="quizzes.html">Quizzes</a></li>
+<li><a href="resources.html">Resources</a></li>
+</ul>
+</nav> <!--end of navigation-->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade"  style="display: block;" >
+  <div class="numbertext">1 / 3</div>
+  <img src="images/banner10.png" style="width:100%">
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/meter1.png" style="width:100%">
+  <div class="text">Lots of things you read online especially in your social media feeds may appear to be true, often is not.
+  Usually, these stories are created to either influence people’s views, push a political agenda or cause confusion and can often be a profitable business for online publishers.
+  <a href="https://www.webwise.ie/teachers/what-is-fake-news/">Source</a>
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/rednews.png" style="width:100%">
+  <div class="text2">Media is no longer passively consumed – it’s created, shared, liked, commented on, attacked and defended in all sorts of different ways by hundreds of millions of people.
+    And the algorithms used by the most powerful tech companies – Google and Facebook in particular – are brilliantly designed to personalise and tailor these services to each user’s profile
+    <a href="https://www.webwise.ie/teachers/what-is-fake-news/">Source</a>
+  </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+<main>
+
+<div class="title3"</div>
+  <h6>Learn how to spot whether a news story you see is fake or true...</h6>
+</div>
+
+<section class="features">
+  <figure>
+     <a href="resources.html">
+    <img src="images/article.6..png" alt="Article Logo">
+    </a>
+    <figcaption>Articles</figcaption>
+  </figure>
+
+    <figure>
+       <a href="videos.html">
+      <img src="images/videoicon1.png" alt="Video Logo">
+    </a>
+    <figcaption>Videos</figcaption>
+  </figure>
+
+    <figure>
+         <a href="quizzes.html">
+        <img src="images/questionmark.png" alt="Quiz Logo">
+        </a>
+        <figcaption>Quizzes</figcaption>
+    </figure>
+
+</section class="features">
+</main>
+
+
+
+<footer class="footer">
+  	 <div class="container1">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>About Us</h4>
+  	 			<ul>
+  	 				<li><a href="about-us.html">What is Fake News?</a></li>
+  	 				<li><a href="about-us.html">What is this Website about?</a></li>
+  	 				<li><a href="about-us.html">Are there Different types of Fake News?</a></li>
+  	 			</ul>
+  	 		</div>
+
+  	 		<div class="footer-col">
+  	 			<h4>References</h4>
+  	 			<ul>
+  	 				<li><a href="resources.html">Recent News</a></li>
+  	 				<li><a href="resources.html">Videos</a></li>
+  	 			</ul>
+  	 		</div>
+
+  	 		<div class="footer-col">
+  	 			<h4>Contact Us</h4>
+  	 			<ul>
+  	 				<li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=z_TxBDtR40eWbxDWaYyjGg4uG0BSXPBFhu1L4R4KLvpUNUE2TTRBUzFCS0RIN08xUVdUSURKSkVOQy4u">Contact Form</a></li>
+  	 			</ul>
+  	 		</div>
+
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://en-gb.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/?lang=en-gb"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+
+</div> <!--end of wrapper-->
+
+
+</body>
+</body id="page1">
+</html>
